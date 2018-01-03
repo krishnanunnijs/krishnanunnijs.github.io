@@ -1,0 +1,8 @@
+Replace Np++ with regex 
+Find : .*"(\w+)"
+Replace : $1
+
+https://stackoverflow.com/questions/20286068/how-to-replace-all-strings-to-numbers-contained-in-each-string-in-notepad
+
+value="4656546557657567576"
+Line "419279": 	"c": "AX20181215HAVHAV",
