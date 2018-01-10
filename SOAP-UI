@@ -1,0 +1,11 @@
+Soapui GUI freezes in 64 bit Windows. To overcome this problem some files should be changed in the installation directory.
+
+In “INSTALL_DIR\bin\soapUI-3.6.1.wmoptions” file the vm argument below should be added
+
+-Dsoapui.jxbrowser.disable=true
+
+If you want to start SoapUI via batch file. You should uncomment the line below in the “INSTALL_DIR\bin\soapui.bat” file.
+
+set JAVA_OPTS=%JAVA_OPTS% -Dsoapui.jxbrowser.disable=”true”
+
+https://aaxoy.wordpress.com/2011/02/02/soapui-gui-freeze-in-windows-7/
