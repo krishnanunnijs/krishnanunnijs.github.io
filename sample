@@ -6,3 +6,8 @@ https://stackoverflow.com/questions/20286068/how-to-replace-all-strings-to-numbe
 
 value="4656546557657567576"
 Line "419279": 	"c": "AX20181215HAVHAV",
+
+vi copy past
+
+:%d 
+esc-i will move to insert mode . then shift-insert will paste
