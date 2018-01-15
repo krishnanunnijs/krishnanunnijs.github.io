@@ -1,8 +1,59 @@
 title: KrishnanUnni.GitHub.io
+author: Smart Guy
 description: LEARN.THINK.CODE.SHARE
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: 
 show_downloads: false
 theme: jekyll-theme-cayman
 
+social:
+#social-network-links:
+  name: Evan Will
+  twitter_username: potus
+  facebook: daattali
+  github_username: evanwill
+  email: your-email@domain.com
+  rss: true
+#  linkedin: daattali
+#  stackoverflow: "3943160/daattali"
+# Select which share links to show in posts
+share-links-active:
+  twitter: true
+  facebook: true
+  google: false
+  linkedin: true
+
+  links: 
+    - https://github.com/evanwill
+
+navbar-links:
+  About Me: "aboutme"
+  Resources:
+    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+    - Learn markdown: "http://www.markdowntutorial.com/"
+    - GitHub Pages: "https://pages.github.com/"
+  Author's home: "http://deanattali.com"
+
+# How to display the link to the website in the footer
+# Remove this if you don't want a link in the footer
+url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+  
+# Output options (more information on Jekyll's site)
+timezone: "America/Vancouver"
+markdown: kramdown
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+paginate: 5
+
+# Build settings
+# markdown: kramdown
+theme: jekyll-theme-cayman
+
+# plugin test
+plugins:
+  - jekyll-feed
+  
 gems:
   - jekyll-mentions
+  - jekyll-seo-tag
